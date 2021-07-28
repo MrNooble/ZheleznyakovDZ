@@ -4,4 +4,4 @@ for name in range(100):
     elif 1 < name % 10 < 5 and not 11 < name % 100 < 15:
         print(name, 'процента,', end=" ")
 else:
-    print(name, 'процентов,', end= " ")
+    print(name, 'процентов,', end=" ")
