@@ -11,5 +11,3 @@ print(f'ID change: {id(prices)} - {prices}')
 print(f"\n{'*' * 35} C & D\n")
 n_list = sorted(prices, reverse=True)
 print(f'ID change: {id(n_list)} - {n_list}\n{n_list[:5][::-1]}')
-
-

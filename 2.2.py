@@ -8,5 +8,4 @@ for i in original_text:
             final_text.append(f"'{i[0]}{int(i[1:]):02}'")
     else:
         final_text.append(i)
-print(" ".join (final_text))
-
+print(" ".join(final_text))
